@@ -78,6 +78,36 @@
 
 @media screen and (max-width: 768px)  {
 
+    header {
+        background: url(/css/img/bg-768.jpg);
+    }
+
+    .nav-icon {
+        width: 36px;
+        height: 24px;
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        background: url(/css/icon/line-nav-icon.svg);
+        background-repeat: repeat-y;
+        background-position: 0 0;
+    }
+
+    .header-nav {
+        display: none;
+        position: absolute;
+        top: 44px;
+        background-color: rgba(36, 36, 36, 0.9);
+        width: 100%;
+    }
+
+    .header-nav-ul li {
+        display: list-item;
+        padding: 10px 20px;
+        margin-right: 0;
+        text-transform: uppercase;
+    }
+
     .empty {
         display: none;
     }
@@ -93,10 +123,7 @@
 
     .logo {
         background-position: center;
-    }
-
-    .header-nav {
-        display: none;
+        margin-bottom: 15px;
     }
 
     .wrap-h1 {
@@ -297,3 +324,74 @@
      }
 }
 
+@media screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .wrap-shifts-name h3 {
+        font-size: 32px;
+    }
+
+    .item-price {
+        padding-top: 0;
+    }
+
+    .item-programm-content li {
+        width: 100%;
+    }
+
+    .wrap-conditions-h2 {
+        width: 100%;
+    }
+
+    .icon-conditions.tent {
+        background-image: url(/css/icon/IMG-tent-480.png);
+    }
+
+    .icon-conditions.guard {
+        background-image: url(/css/icon/IMG-guard-480.png);
+    }
+
+    .icon-conditions.med {
+        background-image: url(/css/icon/IMG-med-480.png);
+    }
+
+    .conditions-content {
+        flex-direction: column;
+    }
+
+    .icon-conditions {
+        width: 100%;
+        height: 70px;
+    }
+
+    .wrap-conditions-ul {
+        padding:20px 20px 0 20px;
+    }
+
+    .conditions-h3 {
+        text-align: center;
+    }
+
+    .wrap-team-content {
+        flex-direction: column;
+    }
+
+    .staff-info-item {
+        text-align: center;
+    }
+
+    .food-item.mob1 {
+        width: 100%;
+    }
+
+    .list-name {
+          font-size: 20px;
+    }
+
+    .send-order-btn {
+        width: 95%;
+    }
+}

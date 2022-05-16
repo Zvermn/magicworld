@@ -410,6 +410,7 @@ a {
     width: 115px;
     height: 100px;
     margin: 0 auto;
+    background-position: center;
 }
 
 .programm-h3 {
