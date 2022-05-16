@@ -145,7 +145,7 @@
     }
 
     h2 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     h3 {
@@ -393,5 +393,41 @@
 
     .send-order-btn {
         width: 95%;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .shifts-name {
+   font-size: 16px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+    }
+
+    .item-date {
+       flex-basis: 100%;
+    }
+
+    .item-price {
+        width: 100%;
+    }
+
+    .programm {
+        margin-bottom:20px;
+    }
+
+    .wrap-gallery-ul li {
+        padding: 5px;
+    }
+
+    .staff-post {
+        font-size: 16px;
+    }
+
+    .list-name {
+        font-size: 16px;
     }
 }
