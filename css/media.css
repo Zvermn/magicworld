@@ -1,0 +1,299 @@
+@media screen and (max-width: 1366px) {
+  
+    .ticket {
+        flex-basis: calc(100%/12 * 6);
+        text-align: center;
+    }
+
+    .wrap-h1 {
+        flex-basis: calc(100%/12 * 6);
+        margin-top: 0;
+    }
+
+    .team-item {
+        flex-basis: calc((100%/12) * 5);
+    }
+
+    .wrap-team-content {
+        justify-content: center;
+    }
+
+    .team-h3 {
+        max-width: calc(100%/12 * 10);
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+   
+    .nav-link {
+        font-size: 12px;
+    }
+
+    .img-baikal {
+        top: 0;
+    }
+
+    .img-baikal img {
+        display: block;
+    }
+
+    .wrap-interior {
+        padding-left: 0;
+    }
+
+    .item-price {
+        padding-right: 20px;
+    }
+
+    .open-pop-up {
+        width: 100%;
+    }
+
+    .wrap-item-programm {
+        justify-content: space-around;
+    }
+
+    .wrap-gallery-ul {
+        justify-content: center;
+    }
+
+    .food-item {
+        justify-content: center;
+    }
+
+    .food-img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .wrap-send-order {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 768px)  {
+
+    .empty {
+        display: none;
+    }
+
+    .wrap-header-top {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tel {
+        text-align: center;
+    }
+
+    .logo {
+        background-position: center;
+    }
+
+    .header-nav {
+        display: none;
+    }
+
+    .wrap-h1 {
+        order: 1;
+        flex-basis: 100%;
+        margin-bottom: 25px;
+    }
+
+    .ticket {
+        order: 2;
+    }
+
+    .wrap-header-content {
+        justify-content: center;
+    }
+
+    .container-header {
+        padding: 45px 20px 80px 20px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .wrap-date {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .wrap-decorate {
+        width: 100%;
+    }
+
+    .item-date {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 40px;
+        padding-right: 0;
+    }
+
+    .shifts-items {
+        justify-content: center;
+    }
+
+    .decorate {
+        width: 100%;
+    }
+
+    .wrap-shifts-name {
+        text-align: center;
+    }
+
+    .wrap-interior {
+        width: 100%;
+    }
+
+    .wrap-shifts-name h3 {
+        text-align: center;
+        font-size: 48px;
+    }
+
+    .item-price {
+        order: 4;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .name-price, .price {
+        margin-bottom: 25px;
+    }
+
+       .shifts-description {
+        margin-bottom: 0;
+    }
+
+    .wrap-item-programm {
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-programm {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .programm-h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .icon-programm{
+        margin-bottom: 20px;
+    }
+
+    .item-programm-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item-programm-content li {
+        width: calc(100%/3*2);
+    }
+
+    .staff-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .staff-info img {
+        margin-bottom: 20px;
+    }
+
+    .bg-conditions {
+        position: static;
+    }
+    .wrap-interior-conditions {
+        padding-bottom: 40px;
+    }
+
+    .wrap-conditions-ul {
+        padding: 100px 20px 0 20px;
+    }
+
+    .conditions-h3 {
+        text-align: left;
+    }
+
+    .wrap-conditions-h2 {
+        border: none;
+        padding: 0;
+        background-color: unset;
+        margin-bottom: 20px;
+    }
+
+    .wrap-team-content {
+        justify-content: space-between;
+    }
+
+    .team-item {
+        flex-basis: calc(100%/3*1.45);
+    }
+
+    .width-5 {
+        max-width: unset;
+    }
+
+    .wrap-food-item {
+        max-width: unset;
+    }
+
+    .wrap-food {
+        justify-content: center;
+    }
+
+    .form-1 {
+        width: 100%;
+    }
+
+    .send-order-btn {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .wrap-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+     }
+
+     .info-autor-tours  {
+        
+         order: 2;
+         margin-bottom: 40px !important;
+     }
+
+     .info p:last-child  {
+        margin-bottom: 40px;
+     }
+
+     .info p {
+         display: block;
+     }
+
+     .slogan {
+        margin-bottom: 40px;
+     }
+}
+

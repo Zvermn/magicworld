@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('/css/fonts/Lato/Lato/Lato-Heavy.eot');
+    src: local('Lato'), local('Lato'),
+        url('/css/fonts/Lato/Lato/Lato-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/Lato/Lato/Lato-Heavy.woff') format('woff'),
+        url('/css/fonts/Lato/Lato/Lato-Heavy.woff2') format('woff2'),
+        url('/css/fonts/Lato/Lato/Lato-Heavy.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('/css/fonts/Lato/Lato/Lato-Black.ttf');
+    src: local('Lato'), local('Lato'),
+        url('/css/fonts/Lato/Lato/Lato-Black.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/Lato/Lato/Lato-Black.woff') format('woff'),
+        url('/css/fonts/Lato/Lato/Lato-Black.woff2') format('woff2'),
+        url('/css/fonts/Lato/Lato/Lato-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'TTNorms';
+    src: url('/css/fonts/TTNorms/TTNorms-Regular.eot');
+    src: local('TTNorms'), local('TT-Norms'),
+        url('/css/fonts/TTNorms/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/TTNorms/TTNorms-Regular.woff') format('woff'),
+        url('/css/fonts/TTNorms/TTNorms-Regular.woff2') format('woff2'),
+        url('/css/fonts/TTNorms/TTNorms-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTNorms';
+    src: url('/css/fonts/TTNorms/TTNorms-Bold.eot');
+    src: local('TTNorms'), local('TT-Norms'),
+        url('/css/fonts/TTNorms/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/TTNorms/TTNorms-Bold.woff') format('woff'),
+        url('/css/fonts/TTNorms/TTNorms-Bold.woff2') format('woff2'),
+        url('/css/fonts/TTNorms/TTNorms-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTNorms';
+    src: url('/css/fonts/TTNorms/TTNorms-Medium.eot');
+    src: local('TTNorms'), local('TT-Norms'),
+        url('/css/fonts/TTNorms/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+        url('/css/fonts/TTNorms/TTNorms-Medium.woff') format('woff'),
+        url('/css/fonts/TTNorms/TTNorms-Medium.woff2') format('woff2'),
+        url('/css/fonts/TTNorms/TTNorms-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('/css/fonts/OpenSans/opensans.eot');
+    src: local('OpenSans'), local('Open-Sans'),
+        url('/css/fonts/OpenSans/opensans.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/OpenSans/opensans.woff') format('woff'),
+         url('/css/fonts/OpenSans/opensans.ttf') format('truetype'),
+         url('/css/fonts/OpenSans/opensans.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Rosa';
+    src: url('/css/fonts/RosaMarena/rosamarena.ttf');
+    src: local('Rosamarera'), local('Rosa-marena'),
+         url('/css/fonts/RosaMarena/rosamarena.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/RosaMarena/rosamarena.woff') format('woff'),
+         url('/css/fonts/RosaMarena/rosamarena.ttf') format('truetype'),
+         url('/css/fonts/RosaMarena/rosamarena.woff2') format('woff2');
+    font-style: normal;
+    font-weight: 400;
+}

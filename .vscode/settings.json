@@ -1,0 +1,19 @@
+{
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": false,
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 4,
+    "editor.fontSize": 16,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": false,
+    "editor.fontWeight": "400",
+    "editor.fontFamily": "Candara",
+    "editor.lineHeight": 1.2,
+    "editor.letterSpacing": 1.2,
+    "json.format.enable": true,
+    "typescript.format.enable": true,
+    "editor.fontLigatures": false,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "DM Sans",
+    "terminal.integrated.fontWeight": "normal"
+}
