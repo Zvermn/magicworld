@@ -118,6 +118,7 @@ a {
     font-style: normal;
     font-size: 48px;
     color: #E80800;
+    display: inline-block;
 }
 
 .tel a {
@@ -211,7 +212,6 @@ a {
 
 .wrap-about-content {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .temp-decorate {
@@ -263,12 +263,15 @@ a {
     font-style: normal;
     font-size: 24px;
     display: inline-block;
-    margin-bottom: 20px;
 }
 
 .shifts-items {
     display: flex;
     flex-wrap: wrap;
+}
+
+.wrap-shifts-name {
+    margin-left: calc(100%/12*2);
 }
 
 .date span, .quantity-day span, .item-price span {
@@ -318,31 +321,36 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-end;
-    margin-top: 15px;
-    margin-bottom: 125px;
+    margin-top: 6px;
     padding-right: 20px;
+    align-self: flex-start;
 }
 
 .wrap-decorate {
-    height: 100%;
-    display: flex;
-    justify-content: center;
+    height: 50px;
+    width: 107px;
 }
 
 .decorate {
-    width: 1px;
-    border: dashed 1px black;
+    background-image: url(/css/icon/decorate.svg);
+    background-repeat: repeat-y;
+    background-position: center 0;
     height: 100%;
+    width: 100%;
 }
 
 .item-content img {
     border: #FFD3BB solid 1px;
     padding: 5px;
+    margin-bottom: 25px;
+    width: 100%;
 }
 
 .item-price {
     padding-top: 30px;
     padding-left: 20px;
+    margin: 0 auto;
+    margin-bottom: 25px;
 }
 
 .name-price {
@@ -370,7 +378,7 @@ a {
 
 .open-pop-up, .send-order-btn {
     width: 70%;
-    padding: 7px 5px;
+    padding: 7px 20px;
     text-align: center;
     background-color: #E80800;
     color: white;
@@ -380,16 +388,9 @@ a {
     font-style: normal;
 }
 
-.shifts-description {
-    justify-self:  center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
 
-.wrap-interior {
-    padding-left: calc(100%/12*2);
-    width:calc(100%/12 * 9);
-}
+
+
 
 /* >section programm                                             */
 
@@ -404,6 +405,11 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.item-programm {
+    padding: 0 20px;
+    margin-bottom: 40px;
 }
 
 .icon-programm {
@@ -434,11 +440,11 @@ a {
 
 .item-programm-content li{
     font-size: 20px;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 .programm {
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 /* >section gallery                                                                              */
@@ -730,13 +736,13 @@ a {
 
 .wrap-send-order {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .send-order-btn {
     font-weight: 700;
     text-transform: uppercase;
-    padding: 15px 5px;
+    padding: 15px 20px;
+    width: 100%;
 }
 
 .form-1 input, .shift-selection {
