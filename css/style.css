@@ -763,7 +763,7 @@ a {
     width: 100%;
 }
 
-.form-1 input, .shift-selection {
+.form input, .shift-selection{
     font-family: 'TTNorms';
     font-style: normal;
     font-size: 20px;
@@ -776,6 +776,13 @@ a {
 
 .shift-selection {
     display: inline-block;
+    background-image: url(/css/icon/arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 95% 18px;
+}
+
+.open-shifts {
+    background-image: url(/css/icon/arrow-up.svg);
 }
 
 .content-select input {
@@ -809,10 +816,14 @@ a {
     color: #fff;
 }
 
-.menu-active {
-    display:block;
-}
+/* > popup                                                       */
 
+.popup {
+    max-width: 350px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
 
 /* >footer                                                                                                   */
 
@@ -864,6 +875,12 @@ a {
     font-family: 'Rosa';
     font-weight: 400;
     font-size: 24px;
+}
+
+
+
+.menu-active {
+    display:block;
 }
 
 @import url(/css/media.css);

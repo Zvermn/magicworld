@@ -1,28 +1,38 @@
+// выбор смены в форме
 let selectShift = document.querySelector('.shift-selection');
 let wrapLabel = document.querySelector('.wrap-label');
 selectShift.addEventListener('click', activeLabel);
 
 function activeLabel() {
     wrapLabel.classList.add('menu-active');
+    selectShift.classList.add('open-shifts');
 }
 
-let shiftSelect = document.getElementById('shift-selection');
+let shiftSelect = document.querySelector('.shift-selection');
 let labels = document.querySelectorAll('.label-shift');
 
 labels.forEach((lab) => {
     lab.addEventListener('click', (e) => {
         wrapLabel.classList.remove('menu-active');
         console.log(shiftSelect);
-        shiftSelect.innerHTML = e.target.innerHTML;
+        shiftSelect.innerHTML = e.currentTarget.innerHTML;
+        selectShift.classList.remove('open-shifts');
     })
 });
 
 document.addEventListener('click', (e) => {
-    if (e.target != selectShift) {
+    if (e.target !== selectShift) {
         wrapLabel.classList.remove('menu-active');
+        selectShift.classList.remove('open-shifts');
     }
 });
 
+
+
+
+
+
+// Блок открытия списка вещей
 let arrowBlock = document.querySelectorAll('.list-item-icon');
 let lists = document.querySelectorAll('.list-item');
 let openLists = document.querySelectorAll('.wrap-list-name');
