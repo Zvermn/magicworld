@@ -126,7 +126,7 @@
         position: absolute;
         top: 0px;
         left: 0px;
-        background: url(/css/icon/line-nav-icon.svg);
+        background: url(/css/img/icon/line-nav-icon.svg);
         background-repeat: no-repeat;
         background-position: 20px 20px;
         background-color: rgba(36, 36, 36, 1);
@@ -211,7 +211,7 @@
     }
 
     .decorate {
-        background-image: url(/css/icon/decorate-x.svg);
+        background-image: url(/css/img/icon/decorate-x.svg);
         background-repeat: repeat-x;
      }
 
@@ -416,15 +416,15 @@
     }
 
     .icon-conditions.tent {
-        background-image: url(/css/icon/IMG-tent-480.png);
+        background-image: url(/css/img/icon/IMG-tent.svg);
     }
 
     .icon-conditions.guard {
-        background-image: url(/css/icon/IMG-guard-480.png);
+        background-image: url(/css/img/icon/IMG-guard.svg);
     }
 
     .icon-conditions.med {
-        background-image: url(/css/icon/IMG-med-480.png);
+        background-image: url(/css/img/icon/IMG-med.svg);
     }
 
     .conditions-content {
