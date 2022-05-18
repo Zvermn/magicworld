@@ -25,6 +25,9 @@ document.addEventListener('click', (e) => {
         wrapLabel.classList.remove('menu-active');
         selectShift.classList.remove('open-shifts');
     }
+    // if (e.currentTarget !== nav) {
+    //     nav.classList.remove('active');
+    // }
 });
 
 
