@@ -668,8 +668,6 @@ a {
     border-bottom: dashed 1px rgba(36, 36, 36, 0.1);
 }
 
-
-
 .icon-food {
     background-image: url(/css/img/icon/IMG-dish-menu.svg);
     background-repeat: no-repeat;
@@ -723,7 +721,11 @@ a {
     display: none;
     margin-top: 5px;
     background-color: #EBF4F5;
-    padding-left: calc(100%/12*1.1);
+    padding: 30px calc(100%/12*1.1);
+}
+
+.list-item li {
+    font-size: 20px;
 }
 
 .list-item.active {
@@ -753,6 +755,14 @@ a {
     margin: 0 auto;
     overflow: hidden;
     margin-bottom: 30px;
+}
+
+.send-order h2 {
+    margin-bottom: 20px;
+}
+
+.send-order-img {
+    margin-bottom: 45px;
 }
 
 .wrap-send-order {

@@ -33,11 +33,15 @@
         justify-content: center;
     }
 
-    .send-order-form {
+    
+}
+@media screen and (max-width: 1100px) and (min-width:768px) {
+.send-order-form {
 
          flex-basis: calc(100%/6 * 4);
     }
 }
+
 
 @media screen and (max-width: 1024px) {
    
