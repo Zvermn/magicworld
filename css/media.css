@@ -42,7 +42,8 @@
 @media screen and (max-width: 1024px) {
    
     .nav-link {
-        font-size: 12px;
+        font-size: 20px;
+        padding: 20px 20px;
     }
 
     .wrap-about-content {
@@ -56,6 +57,7 @@
     .img-baikal img {
         display: block;
         margin: auto;
+        width: 100%;
     }
 
     .wrap-interior {
@@ -130,17 +132,28 @@
         background-color: rgba(36, 36, 36, 1);
     }
 
+    .nav-icon:hover {
+        cursor: pointer;
+    }
+
     .header-nav {
         display: none;
         position: absolute;
-        top: 44px;
+        top: 60px;
         background-color: rgba(36, 36, 36, 1);
         width: 100%;
+        margin-bottom: 0;
+        padding-bottom: 50px;
+        border-bottom: #FF7A00 9px solid;
+    }
+
+    .header-nav.active {
+        display: block;
     }
 
     .header-nav-ul li {
         display: list-item;
-        padding: 10px 20px;
+        /* padding: 10px 20px; */
         margin-right: 0;
         text-transform: uppercase;
     }
@@ -178,7 +191,7 @@
     }
 
     .container-header {
-        padding: 45px 20px 80px 20px;
+        padding: 65px 20px 80px 20px;
     }
 
     h2 {
@@ -314,7 +327,7 @@
     }
 
     .team-item {
-        flex-basis: calc(100%/3*1.45);
+        flex-basis: calc(100%/3*1.3);
     }
 
     .width-5 {
@@ -372,6 +385,14 @@
 
     h1 {
         font-size: 36px;
+    }
+
+    .ticket {
+        flex-basis: 100%;
+    }
+
+    .ticket img {
+        width: 100%;
     }
 
     .wrap-shifts-name h3 {
@@ -455,6 +476,7 @@
        flex-basis: 100%;
     }
 
+   
     /* .item-price {
         width: 100%;
     } */

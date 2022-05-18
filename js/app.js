@@ -41,3 +41,9 @@ function openList(event) {
     }
 
 };
+
+let nav = document.querySelector('.header-nav');
+let openNav = document.querySelector('.nav-icon');
+openNav.addEventListener('click', () => {
+    nav.classList.toggle('active');
+});
