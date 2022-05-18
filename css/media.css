@@ -300,6 +300,10 @@
         margin-bottom: 20px;
     }
 
+    .staff-post {
+        margin-bottom: 10px;
+    }
+
     .bg-conditions {
         position: static;
     }
@@ -342,7 +346,7 @@
         justify-content: center;
     }
 
-    .form-1 {
+    .form {
         width: 100%;
     }
 

@@ -10,6 +10,7 @@
     <link rel='stylesheet' href='/css/fonts.css'>
     <link rel='stylesheet' href='/css/grid.css'>
     <link rel='stylesheet' href='/css/media.css'>
+    <link href="/js/plugins/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet">
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <title>Детский лагерь Magic World</title>
 </head>
@@ -283,8 +284,8 @@
         </section>
         <section class="gallery">
             <div class="wrap-gallery">
-                <ul class="wrap-gallery-ul">
-                    <li><a href="" data-funcebox>
+                <ul class="wrap-gallery-ul gallery">
+                    <li><a href="/img/gallery/1.jpg" data-fancybox="gallery">
                             <picture>
                                 <source srcset="/img/gallery/1-360.jpg" media="(max-width: 480px )">
                                 <img src="/img/gallery/1.jpg" alt="">
@@ -749,25 +750,47 @@
                     </picture>
                 </div>
                 <div class="send-order-form large4 med2 mob1">
-                    <form action="yandex.ru" class="form-1" method="GET">
+                    <form action="yandex.ru" class="form" method="GET">
                         <div class="content-select">
                             <span class="shift-selection" id="shift-selection">Выберите смену</span>
                             <div class="wrap-label">
-                                <input id="shift1" type="radio" value="1" name="shift" />
-                                <label for="shift1" class="label-shift">Первая смена (18 июня)</label>
-                                <input id="shift2" type="radio" value="2" name="shift" />
-                                <label for="shift2" class="label-shift">Вторая смена (22 июня)</label>
-                                <input id="shift3" type="radio" value="3" name="shift" />
-                                <label for="shift3" class="label-shift">Третья смена (29 июня)</label>
+                                <label class="label-shift">Первая смена (18 июня)
+                                    <input type="radio" value="1" name="shift" />
+                                </label>
+                                <label class="label-shift">Вторая смена (22 июня)
+                                    <input type="radio" value="2" name="shift" />
+                                </label>
+                                <label class="label-shift">Третья смена (29 июня)
+                                    <input type="radio" value="3" name="shift" />
+                                </label>
                             </div>
                         </div>
                         <input type="text" placeholder="Ваше имя" name="user_name">
-                        <input type="text" placeholder="Телефон" name="user_phone">
+                        <input type="text" placeholder="Телефон" name="user_phone" class="tel-input phone-field">
                         <button class="send-order-btn" type="submit">Отправить заявку</button>
                     </form>
                 </div>
             </div>
         </section>
+        <!-- <form action="yandex.ru" class="popup form" method="GET">
+            <div class="content-select">
+                <span class="shift-selection" id="shift-selection">Выберите смену</span>
+                <div class="wrap-label">
+                    <label class="label-shift">Первая смена (18 июня)
+                        <input type="radio" value="1" name="shift" />
+                    </label>
+                    <label class="label-shift">Вторая смена (22 июня)
+                        <input type="radio" value="2" name="shift" />
+                    </label>
+                    <label class="label-shift">Третья смена (29 июня)
+                        <input type="radio" value="3" name="shift" />
+                    </label>
+                </div>
+            </div>
+            <input type="text" placeholder="Ваше имя" name="user_name">
+            <input type="text" placeholder="Телефон" name="user_phone" class="tel-input phone-field">
+            <button class="send-order-btn" type="submit">Отправить заявку</button>
+        </form> -->
     </main>
     <footer class="footer-bg">
         <div class="wrap-footer">
@@ -788,6 +811,9 @@
         </div>
     </footer>
     <script src="/js/app.js"></script>
+    <script src="/js/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="/js/plugins/fancybox/dist/jquery.fancybox.min.js"></script>
+
 </body>
 
 </html>
