@@ -286,6 +286,10 @@ a {
     margin-left: calc(100%/12*2);
 }
 
+.wrap-shifts li {
+    margin-bottom: 30px;
+}
+
 .date span, .quantity-day span, .item-price span {
     display: block;
 }

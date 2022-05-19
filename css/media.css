@@ -229,6 +229,7 @@
         justify-content: center;
         margin-bottom: 40px;
         padding-right: 0;
+        
     }
 
     .shifts-items {
@@ -466,6 +467,10 @@
 
     .send-order-btn {
         width: 95%;
+    }
+
+    .item-date {
+        flex-basis: 100%;
     }
 }
 
