@@ -766,7 +766,11 @@
                         </div>
                         <input type="text" placeholder="Ваше имя" name="user_name">
                         <input type="text" placeholder="Телефон" name="user_phone" class="tel-input phone-field">
-                        <button class="send-order-btn" type="submit">Отправить заявку</button>
+
+                        <input type="checkbox" name="agreement" id="accept" required>
+                        <label for="accept">Я соглашаюсь с правилами обработки персональных данных</label>
+
+                        <input value="Отправить заявку" class="send-order-btn" type="submit">
                     </form>
                 </div>
             </div>

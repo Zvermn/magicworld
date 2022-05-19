@@ -32,9 +32,6 @@ document.addEventListener('click', (e) => {
 
 
 
-
-
-
 // Блок открытия списка вещей
 let arrowBlock = document.querySelectorAll('.list-item-icon');
 let lists = document.querySelectorAll('.list-item');
